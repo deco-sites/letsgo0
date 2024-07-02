@@ -15,20 +15,15 @@ export interface Props {
    * @format color-input
    */
   backgroundColor?: string;
-  /**
-   * @format color-input
-   */
-  newbackgroundColor?: string;
 }
 
 export default function DemoComponent({
-  title = "Welcome to the Demo",
+  title = "Welcome to the Deco",
   description = "This is a demo component powered by HTMX. Click the buttons to see the magic!",
   backgroundColor = "#ffffff",
-  newbackgroundColor = "#000000"
 }: Props) {
   const toggleLink = usePartialSection({
-    props: { backgroundColor: backgroundColor === "#ffffff" ? newbackgroundColor : "#ffffff" },
+    props: { backgroundColor: backgroundColor === "#ffffff" ? "#000000" : "#ffffff" },
   });
 
   return (
