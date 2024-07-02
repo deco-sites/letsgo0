@@ -636,26 +636,34 @@
         },
         "content": [
           {
-            "type": "stack",
+            "type": "row",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "content": [
               {
-                "type": "component",
-                "width": 70,
+                "type": "stack",
+                "width": 100,
                 "isClosable": true,
                 "reorderEnabled": true,
-                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D\" />",
-                "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D",
-                "componentName": "component",
-                "componentState": {
-                  "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D"
-                }
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Start-15553.json::Preview::visibility::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
               }
-            ],
-            "width": 100,
-            "activeItemIndex": 0
+            ]
           }
         ],
         "isClosable": true,
@@ -890,12 +898,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Code::code::Code::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Preview::visibility::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Preview::visibility::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Code::code::Code::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Preview::visibility::Preview::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -911,18 +919,17 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Preview::visibility::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Preview::visibility::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Code::code::Code::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Preview::visibility::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Code::code::Code::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
-                ],
-                "header": {}
+                ]
               },
               {
                 "type": "stack",
@@ -986,7 +993,8 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FChangecolor.tsx.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         }
       }

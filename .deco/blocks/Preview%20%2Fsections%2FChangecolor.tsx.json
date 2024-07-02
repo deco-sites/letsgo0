@@ -1,3 +1,4 @@
 {
-  "__resolveType": "site/sections/Changecolor.tsx"
+  "__resolveType": "site/sections/Changecolor.tsx",
+  "newbackgroundColor": "#ff0000"
 }
